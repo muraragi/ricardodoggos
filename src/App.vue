@@ -12,6 +12,9 @@ export default {
   components: { 
     Breeds
   },
+  created () {
+    document.title = 'Ricardo Doggos'
+  }
 }
 </script>
 
